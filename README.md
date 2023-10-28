@@ -78,15 +78,15 @@ This will make the later part of this assignment easier for you.
   - [x] Check data memory for the correct result, and also verify that the PC behaves correctly through the call and return instructions
   - [x] **Commit and push to Github with message "call and ret instructions"**
 3. Add support for _nop_ and _halt_ instructions
-- [ ] Do you need any hardware modification?
-- [ ] Modify the control signals appropriately for _nop_
-- [ ] With the _halt_ instruction, the _PC_ stops incrementing. Do you need hardware modification?
-- [ ] Add appropriate control signals
-- [ ] **Commit and push to Github with message "halt and nop instruction"**
+- [x] Do you need any hardware modification?
+- [x] Modify the control signals appropriately for _nop_
+- [x] With the _halt_ instruction, the _PC_ stops incrementing. Do you need hardware modification?
+- [x] Add appropriate control signals
+- [x] **Commit and push to Github with message "halt and nop instruction"**
 - [ ] Write a small test program for all your instructions:
   - [ ] Load two numbers into r1 and r2
   - [ ] Add the two numbers and store result in r3
-  - [ ] Compare that with your 'manual' addition (supplied as an _imm_ to _cmp__
+  - [ ] Compare that with your 'manual' addition (supplied as an _imm_ to _cmp__)
   - [ ] If result is correct write 0x0 to r4 and skip next instruction; else branch to the next instruction and write 0xFFFFFFFF (all 1s) to r4
   - [ ] Call a new function that stores the value from r4 to the data memory
   - [ ] Return from the call
