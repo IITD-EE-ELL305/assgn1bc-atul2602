@@ -594,11 +594,19 @@
       <a name="font" val="SansSerif plain 20"/>
       <a name="text" val="Execute"/>
     </comp>
+<<<<<<< HEAD
     <comp lib="7" loc="(1625,730)" name="Text">
       <a name="font" val="SansSerif plain 20"/>
       <a name="text" val="Memory Access IO"/>
     </comp>
     <comp lib="7" loc="(1795,435)" name="Text">
+=======
+    <comp lib="7" loc="(1627,734)" name="Text">
+      <a name="font" val="SansSerif plain 20"/>
+      <a name="text" val="Memory Access IO"/>
+    </comp>
+    <comp lib="7" loc="(1797,435)" name="Text">
+>>>>>>> b4890fd1a187e3e8ea084113a8149506b1d02af5
       <a name="font" val="SansSerif plain 20"/>
       <a name="text" val="Memory Access"/>
     </comp>
@@ -4999,11 +5007,19 @@ ee 9 2 0 ef d 2 0
       <a name="label" val="CLK"/>
       <a name="labelfont" val="SansSerif bold 13"/>
     </comp>
+<<<<<<< HEAD
     <comp lib="0" loc="(590,110)" name="Tunnel">
+=======
+    <comp lib="0" loc="(560,80)" name="Tunnel">
+>>>>>>> b4890fd1a187e3e8ea084113a8149506b1d02af5
       <a name="facing" val="east"/>
       <a name="label" val="READ_EN"/>
       <a name="labelfont" val="SansSerif bold 11"/>
     </comp>
+<<<<<<< HEAD
+=======
+    <comp lib="0" loc="(600,110)" name="Constant"/>
+>>>>>>> b4890fd1a187e3e8ea084113a8149506b1d02af5
     <comp lib="0" loc="(600,190)" name="Splitter">
       <a name="appear" val="right"/>
       <a name="bit10" val="2"/>
@@ -5205,8 +5221,13 @@ ee 9 2 0 ef d 2 0
     <wire from="(500,210)" to="(500,340)"/>
     <wire from="(500,210)" to="(540,210)"/>
     <wire from="(500,340)" to="(610,340)"/>
+<<<<<<< HEAD
     <wire from="(530,80)" to="(610,80)"/>
     <wire from="(590,110)" to="(620,110)"/>
+=======
+    <wire from="(560,80)" to="(610,80)"/>
+    <wire from="(600,110)" to="(620,110)"/>
+>>>>>>> b4890fd1a187e3e8ea084113a8149506b1d02af5
     <wire from="(620,90)" to="(620,110)"/>
     <wire from="(630,90)" to="(630,170)"/>
     <wire from="(640,340)" to="(690,340)"/>
